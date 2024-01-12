@@ -7,6 +7,8 @@ interface Project {
   img: string;
   title: string;
   link: string;
+  description: string;
+  tools: string;
 }
 
 export const projects: Project[] = [
@@ -16,6 +18,8 @@ export const projects: Project[] = [
     img: cafe,
     title: "Café sans-fil",
     link: "https://cafesansfil.onrender.com/",
+    description: "A web app for the cafés of UdeM.",
+    tools: "FastAPI, React, MongoDB, Tailwind CSS, Render",
   },
   {
     id: 2,
@@ -23,5 +27,7 @@ export const projects: Project[] = [
     img: ddr,
     title: "DDR Dance Pad",
     link: "https://youtube.com/shorts/OpIH9xendsc",
+    description: "A dance pad made from scratch.",
+    tools: "Arduino, Circuitry, Woodworking, Soldering, Painting",
   },
 ];
