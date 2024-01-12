@@ -38,7 +38,11 @@ const Contact = () => {
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    emailjs.send('service_mhe9p94', 'template_0l4qhyr', formData, 'ZDTI1LMTJEz0KPFhx')
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID as string, 
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID as string,
+      formData,
+      process.env.REACT_APP_EMAILJS_USER_ID as string)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         toast.success('Message sent successfully', {

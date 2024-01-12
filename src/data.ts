@@ -22,6 +22,6 @@ export const projects: Project[] = [
     category: "other",
     img: ddr,
     title: "DDR Dance Pad",
-    link: "https://google.com",
+    link: "https://youtube.com/shorts/OpIH9xendsc",
   },
 ];
