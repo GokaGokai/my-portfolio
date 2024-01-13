@@ -91,7 +91,7 @@ const Projects = () => {
             className="flex gap-12 mt-12 flex-wrap justify-center"
           >
             {filteredProjects().map((item) => (
-              <Card imgSrc={item.img} title={item.title} link={item.link} description={item.description} tools={[item.tools]} />
+              <Card imgSrc={item.img} title={item.title} link={item.link} description={item.description} tools={item.tools} />
             ))}
           </motion.div>
         </div>
