@@ -27,7 +27,7 @@ const Card: FC<CardProps> = ({ imgSrc, title, link, description, tools }) => {
         <div className="text-textPrimary absolute top-0 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out text-center w-full px-8 z-10">
           <h3 className="text-base pt-1 sm:text-lg font-bold">{title}</h3>
           <p className="text-sm">{description}</p>
-          <ul className="text-xs mt-2">
+          <ul className="text-xs mt-2 text-neutral-400">
             {tools.map(tool => (
               <li key={tool}>{tool}</li>
             ))}

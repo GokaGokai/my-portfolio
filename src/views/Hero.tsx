@@ -69,7 +69,7 @@ const Hero = () => {
             <Link to="contact" smooth>
               <Button secondary>Contact me</Button>
             </Link>
-            <a href="https://gokagokai.github.io/my-portfolio/SouthidejOudanonh_Resume_2024.pdf">
+            <a href="https://gokagokai.github.io/my-portfolio/SouthidejOudanonh_Resume_2024.pdf" target="_blank">
               <Button icon={downloadIcon}>Download CV</Button>
             </a>
           </motion.div>
