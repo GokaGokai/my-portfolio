@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/variants";
 import { transition } from "../utils/transition";
 
-type Category = "web" | "other";
+type Category = "web" | "raytracer" | "arduino";
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState<Category>("web");
@@ -25,8 +25,10 @@ const Projects = () => {
   const filteredProjects = () => {
     if (activeCategory === "web") {
       return projects.filter((item) => item.category === "web");
+    } else if (activeCategory === "raytracer") {
+      return projects.filter((item) => item.category === "raytracer");
     } else {
-      return projects.filter((item) => item.category === "other");
+      return projects.filter((item) => item.category === "arduino");
     }
   };
 
@@ -67,10 +69,16 @@ const Projects = () => {
               Web
             </Button>
             <Button
-              secondary={activeCategory === "other" ? true : false}
-              onClick={() => setActiveCategory("other")}
+              secondary={activeCategory === "raytracer" ? true : false}
+              onClick={() => setActiveCategory("raytracer")}
             >
-              Other
+              Raytracer
+            </Button>
+            <Button
+              secondary={activeCategory === "arduino" ? true : false}
+              onClick={() => setActiveCategory("arduino")}
+            >
+              Arduino
             </Button>
           </motion.div>
 

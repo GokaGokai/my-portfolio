@@ -1,4 +1,5 @@
 import cafe from "./assets/cafe.png";
+import raytracer from "./assets/color_plink2.ray1440p10spp.png";
 import ddr from "./assets/ddr.png";
 
 interface Project {
@@ -23,7 +24,16 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    category: "other",
+    category: "raytracer",
+    img: raytracer,
+    title: "Raytracer",
+    link: "https://cdn.discordapp.com/attachments/900402165179359234/1035923195280236574/color_plink2.ray1440p10spp.png?ex=65abd8a8&is=659963a8&hm=341a59cb04de477e6e94f47a711fbf2f3808ece6637b597f7f15a9ffa7381188&",
+    description: "Raytracer made from scratch.",
+    tools: "C++, CMake",
+  },
+  {
+    id: 3,
+    category: "arduino",
     img: ddr,
     title: "DDR Dance Pad",
     link: "https://youtube.com/shorts/OpIH9xendsc",
