@@ -21,13 +21,13 @@ const Card: FC<CardProps> = ({ imgSrc, title, link, description, tools }) => {
         <img
           src={imgSrc}
           alt=""
-          className="transition-all rounded-lg group-hover:mt-12 duration-700 backdrop-blur-0 group-hover:scale-[1.02] ease-in-out md:max-h-[430px] md:w-auto max-h-[350px]"
+          className="transition-all rounded-lg group-hover:mt-[3.9rem] group-hover:sm:mt-12  duration-700 backdrop-blur-0 group-hover:scale-[1.02] ease-in-out md:max-h-[430px] md:w-auto max-h-[350px]"
         />
 
         <div className="text-textPrimary absolute top-0 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-700 ease-in-out text-center w-full px-8 z-10">
           <h3 className="text-base pt-1 sm:text-lg font-bold">{title}</h3>
           <p className="text-sm">{description}</p>
-          <div className="text-xs mt-2 text-neutral-400">
+          <div className="text-xs mt-0 sm:mt-2 text-neutral-400">
             {tools}
           </div>
         </div>
