@@ -69,7 +69,7 @@ const Hero = () => {
             <Link to="contact" smooth>
               <Button secondary>Contact me</Button>
             </Link>
-            <a href="https://gokagokai.github.io/my-portfolio/SouthidejOudanonh_Resume_2024.pdf" target="_blank">
+            <a href="https://southidej.com/SouthidejOudanonh_Resume_2024.pdf" target="_blank">
               <Button icon={downloadIcon}>Download CV</Button>
             </a>
           </motion.div>
@@ -83,7 +83,7 @@ const Hero = () => {
           viewport={{ once: false }}
           src={me}
           alt=""
-          className="max-w-full sm:max-w-[401px] relative top-0 right-0 xl:right-[5.5rem]"
+          className="max-w-full sm:max-w-[401px] relative top-0 right-0 xl:right-[3.8rem]"
         />
       </div>
 
