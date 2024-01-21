@@ -41,7 +41,10 @@ const About = () => {
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              A recent graduate from <strong>Université de Montréal</strong> with a <strong>B.Sc in Computer Science</strong>. I am currently looking for a full-time position as a web developer.
+            An aspiring software developer and pending <strong>Université de Montréal</strong>
+            </p>
+            <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
+            <strong> B.Sc. in CS</strong> graduate with a strong foundation in <strong>fullstack development</strong>.
             </p>
           </Reveal>
 
