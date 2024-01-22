@@ -40,13 +40,12 @@ const About = () => {
           </Reveal>
 
           <Reveal>
-            <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-            An aspiring software developer and pending <strong>Université de Montréal</strong>
-            </p>
-            <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-            <strong> B.Sc. in CS</strong> graduate with a strong foundation in <strong>fullstack development</strong>.
-            </p>
+            <div className="text-center text-base text-textSecondary sm:text-lg xl:text-start">
+              <span>An aspiring software developer and pending <strong>Université de Montréal</strong></span>
+              <span className="sm:block"> <strong>B.Sc. in CS</strong> graduate with a strong foundation in <strong>full-stack development</strong>.</span>
+            </div>
           </Reveal>
+
 
           <motion.div
             variants={fadeIn("up")}
