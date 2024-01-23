@@ -20,7 +20,7 @@ export const projects: Project[] = [
     title: "Café sans-fil",
     link: "https://cafesansfil.onrender.com/",
     description: "Web app for student cafés of Université de Montréal.",
-    tools: "FastAPI · React · MongoDB · Tailwind CSS · Render",
+    tools: "FastAPI · React · MongoDB · Tailwind CSS · Render · CI/CD",
   },
   {
     id: 2,
@@ -38,6 +38,6 @@ export const projects: Project[] = [
     title: "BlitzPad",
     link: "https://youtube.com/shorts/OpIH9xendsc",
     description: "DDR Dance Pad made from scratch.",
-    tools: "Arduino · Circuitry · Woodworking · Soldering · Painting",
+    tools: "Arduino · Circuitry · Woodworking · Soldering",
   },
 ];
