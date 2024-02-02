@@ -41,7 +41,7 @@ const About = () => {
 
           <Reveal>
             <div className="text-center text-base text-textSecondary sm:text-lg xl:text-start">
-              <span>An aspiring software developer and pending <strong>Université de Montréal</strong></span>
+              <span>An aspiring software developer and recent <strong>Université de Montréal</strong></span>
               <span className="sm:block"> <strong>B.Sc. in CS</strong> graduate with a strong foundation in <strong>full-stack development</strong>.</span>
             </div>
           </Reveal>
