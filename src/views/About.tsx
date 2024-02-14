@@ -88,13 +88,13 @@ const About = () => {
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="Javascript" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" />
-            <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" title="PHP" />
+            <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"  title="PHP" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="C#" />
 
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" title="FastAPI" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" />
-            <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" title="Tailwind CSS" />
+            <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="MongoDB" />
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" title="PostgreSQL" />
 
@@ -104,7 +104,7 @@ const About = () => {
             <Icon imgSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker" />
           </motion.div>
         </div>
-      </div>
+      </div>  
 
       <div className="absolute bottom-0 left-0 w-full h-[1px] bg-divider" />
     </div>
